@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Sri Vasavi">
+    <meta name="description" content="this is my developer page">
+
+    <title> SriVasavi</title>
+    <link href="Styles/style.css" rel="stylesheet">
+
+</head>
+
+
+
+
+    <header>
+
+        <h1> Web Apps - P2 Styled Site</h1>
+
+
+    </header>
+    <br>
+
+    <br>
+    <nav>
+    <ul>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Form</a>
+            <a href="interest.html">Interest Calculation</a>
+            <img src="vasu.jpg" alt="SriVasavi" align="right" style="width:100px" class="circular--square"></div>   
+            
+
+    </ul>
+</nav>
+   <br>
+    <br>
+<head>
+    <meta charset="UTF-8">
+    <title>Interest Calculator</title>
+    <style>
+        
+        body   {color: #2f4f4f;}
+        p {
+            overflow-x: -webkit-marquee;
+            -webkit-marquee-style: alternate;
+        }
+    </style>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<h1>Interest Calculator </h1>
+
+    &nbsp; Please enter your Principal Amount($) lended: <input type=number id="pr" value="1"><br>
+    &nbsp; Please enter the tenure: <input type=number id="te" value="1"><br>
+    &nbsp; Enter the interest: <input type=number id="rate" value="0">&nbsp;
+     <select name="rate" id="Ttype" >
+        <option selected="selected" value="i1">Yearly</option>
+        <option value="i4">Quarter-Yearly</option>
+        <option value="i2">Half-Yearly</option>
+    </select><br>
+    &nbsp; Pick the Type of interest:
+<select name="iType" id="iType" >
+    <option selected="selected" id="s">Simple</option>
+    
+</select>    <br><br>
+<input type="button" about="Calculate" aria-valuetext="Calculate" value="Calculate" onclick="CalcInterest()">
+
+<br><br><br><br>
+<p>Thanks for using our interest calculator,hope you got your result, See you again!</p>
+</body>
+</html>
