@@ -39,7 +39,7 @@
     <br>
 <head>
     <meta charset="UTF-8">
-    <title>Interest Calculator</title>
+    <title>Multiplication Calculator</title>
     <style>
         
         body   {color: #2f4f4f;}
@@ -52,24 +52,28 @@
 </head>
 <body>
 
-<h1>Interest Calculator </h1>
+<h1>Multiplication Calculator </h1>
+&nbsp; &nbsp;<p>Enter value1</p><input id="x"> 
+&nbsp; &nbsp;<p>Enter value2</p><input id="y">
 
-    &nbsp; Please enter your Principal Amount($) lended: <input type=number id="pr" value="1"><br>
-    &nbsp; Please enter the tenure: <input type=number id="te" value="1"><br>
-    &nbsp; Enter the interest: <input type=number id="rate" value="0">&nbsp;
-     <select name="rate" id="Ttype" >
-        <option selected="selected" value="i1">Yearly</option>
-        <option value="i4">Quarter-Yearly</option>
-        <option value="i2">Half-Yearly</option>
-    </select><br>
-    &nbsp; Pick the Type of interest:
-<select name="iType" id="iType" >
-    <option selected="selected" id="s">Simple</option>
-    
-</select>    <br><br>
-<input type="button" about="Calculate" aria-valuetext="Calculate" value="Calculate" onclick="CalcInterest()">
+
+<button id="go"></button>
+<br>
+<br>
+
+<p><div id="result"></div></p>
+<br>
+<br>
+<div id="resul"></div>
+
+
+<br>
+<br>
+
+<input type="button" about="Multiply" aria-valuetext="Multiply" value="Multiply" onclick=" mul(); clickCounter();">
+
 
 <br><br><br><br>
-<p>Thanks for using our interest calculator,hope you got your result, See you again!</p>
+<p>Thanks for using our Multiplication calculator,hope you got your result, See you again!</p>
 </body>
 </html>
