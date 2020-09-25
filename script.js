@@ -1,23 +1,24 @@
+"use strict";
 
-function CalcInterest() {
-    var p,t,r,t2,i;
-    var n=1;
-    p=t=r=t2=i=0;
-
-    p = parseInt(document.getElementById("pr").value);
-    t = parseInt(document.getElementById("te").value);
-    r = parseInt(document.getElementById("rate").value);
-    t2= document.getElementById("Ttype").value;
-    i= document.getElementById("iType").value;
-
-    switch (t2) {
-        case "i2":
-            n=2;break;
-        case "i4":
-            n=4;break;
-    }
-    if(i==="Compound")
-        alert("Final amount with Compound interest is: "+((p+parseInt(Math.pow(1+(r/n),n*t)))));
-    else
-        alert("Final amount with Simple interest is: "+(p+((p*t*r)/100)));
+function mul() {
+    var x = Number(document.getElementById('x').value);
+    var y = Number(document.getElementById('y').value);
+    var z=x*y;
+    document.getElementById('result').innerHTML = "Multiplication result is:"+z;
+    console.count(result);
+    return false;
 }
+
+document.getElementById('go').addEventListener('click', add);
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+      if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+      } else {
+        localStorage.clickcount = 1;
+      }
+      document.getElementById("resul").innerHTML = "You have clicked the Multiply button " + localStorage.clickcount + " time(s).";
+    } else {
+      document.getElementById("resul").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+  }
