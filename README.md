@@ -2,9 +2,9 @@
 
 ## Repository Links
 
-* [Source Repository :] (https://github.com/Srivasavi-vipparla/about-me)
+* [Source Repository :] (https://github.com/Srivasavi-vipparla/about-sri)
 
-* [Hosted Page:] ( https://Srivasavi-vipparla.github.io/about-me/)
+* [Hosted Page:] ( https://Srivasavi-vipparla.github.io/about-sri/)
 
 ## About This Repo
 
@@ -31,6 +31,10 @@
 * CSS
 
 * Markdown
+
+* JavaScript
+
+* AJAX
 
 ## Recommended Resources
 
