@@ -26,3 +26,21 @@ nav a{
   font-size: 20px;
 
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+section{
+    margin: 1em;
+}
+h2,h3{
+    color: rgb(58, 35, 143);
+}
+#profile_pic {
+    border-radius: 50%;
+    max-width: 10%;
+    display: block;
+    flex-basis: 20%;
+}
