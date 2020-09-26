@@ -67,13 +67,37 @@
 <div id="resul"></div>
 
 
+
 <br>
 <br>
 
-<input type="button" about="Multiply" aria-valuetext="Multiply" value="Multiply" onclick=" mul(); clickCounter();">
+
+<input type="button" about="Multiply" aria-valuetext="Multiply" value="Multiply" style="margin-right: 28%;"onclick=" mul(); clickCounter();"><br>
 
 
-<br><br><br><br>
-<p>Thanks for using our Multiplication calculator,hope you got your result, See you again!</p>
+
+    
+<br>
+<br>
+<br>
+<p>Thanks for using our Multiplication calculator,hope you got your result, See you again!</p><br><br>
+
+
+<button id="myBtn"style="margin-right: 28%;">Say Hello</button>
+<br>
+<br>
+<br>
+
+<p id="demo">
+
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello ,i am sri vasavi vipparla";
+}
+</script>
+
+<br><br>
 </body>
 </html>
