@@ -44,6 +44,14 @@
 
 * https://github.github.com/gfm/
 
+## References
+
+* https://javascript.info/introduction-browser-events
+
+* https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event
+
+* https://github.com/profcase/js-gui-ajax
+
 ## Contibutor
 
  Sri vasavi Vipparla || Masters in Apllied Computer Science
