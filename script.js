@@ -22,3 +22,4 @@ function clickCounter() {
       document.getElementById("resul").innerHTML = "Sorry, your browser does not support web storage...";
     }
   }
+
