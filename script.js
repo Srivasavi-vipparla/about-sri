@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 
 function mul() {
     var x = Number(document.getElementById('x').value);
